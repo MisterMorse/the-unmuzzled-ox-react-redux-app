@@ -1,5 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
 
+import { StaffSlice } from "../components/staff/StaffSlice.js";
+
 export default configureStore({
-    reducer: {},
-})
+    reducer: {
+        staff: StaffSlice.reducer
+    },
+});
