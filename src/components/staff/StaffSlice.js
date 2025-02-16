@@ -3,15 +3,15 @@ import { createSlice } from "@reduxjs/toolkit";
 export const StaffSlice = createSlice({
     name: "staff",
     initialState: {
-        getStaff: 'hi.'
+        staff: [],
+        message: ""
     },
     reducers: {
-        greeting: (state) => {
-            state.getStaff += 'hey.'
+        saveMessage: (state, action) => {
+            state.message = action.payload
         }
     }
 })
 
-// let greeting;
-export const {greeting} = StaffSlice.actions;
+export const { saveMessage } = StaffSlice.actions;
 export default StaffSlice.reducer;

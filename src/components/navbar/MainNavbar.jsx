@@ -3,9 +3,9 @@ import {Link} from "react-router-dom";
 
 function MainNavbar() {
     return (
-        <Navbar expand={'md'}>
+        <Navbar expand={"md"}>
             <NavbarBrand>Lovelady Baptist Church</NavbarBrand>
-            <Nav navbar className={'text-start'}>
+            <Nav navbar className={"text-start"}>
                 <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav caret>
                         About
@@ -15,7 +15,7 @@ function MainNavbar() {
                         <DropdownItem>What We Believe</DropdownItem>
                         <DropdownItem>Planning Your Visit</DropdownItem>
                         <DropdownItem>Service Times</DropdownItem>
-                        <DropdownItem tag={ Link } to={ '/staff' }>Leadership</DropdownItem>
+                        <DropdownItem tag={ Link } to={ "/staff" }>Leadership</DropdownItem>
                     </DropdownMenu>
                 </UncontrolledDropdown>
                 <UncontrolledDropdown nav inNavbar>
