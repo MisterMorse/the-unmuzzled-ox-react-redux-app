@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-export const StaffSlice = createSlice({
+export const staffSlice = createSlice({
     name: "staff",
     initialState: {
         staff: [],
@@ -13,5 +13,5 @@ export const StaffSlice = createSlice({
     }
 })
 
-export const { saveMessage } = StaffSlice.actions;
-export default StaffSlice.reducer;
+export const { saveMessage } = staffSlice.actions;
+export default staffSlice.reducer;
