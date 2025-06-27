@@ -41,10 +41,9 @@ function MainNavbar() {
                         Events
                     </DropdownToggle>
                     <DropdownMenu>
-                        <DropdownItem>Men&#39;s Activities</DropdownItem>
-                        <DropdownItem>Women&#39;s Activities</DropdownItem>
-                        <DropdownItem>Senior Adult Activities</DropdownItem>
-                        <DropdownItem>Mimi Jan&#39;s Bible Drive</DropdownItem>
+                        <DropdownItem tag={Link} to={ '/events'}>Men&#39;s Activities</DropdownItem>
+                        <DropdownItem tag={Link} to={'/women'}>Women&#39;s Activities</DropdownItem>
+                        <DropdownItem tag={Link} to={'/senior'}>Senior Adult Activities</DropdownItem>
                     </DropdownMenu>
                 </UncontrolledDropdown>
                 <UncontrolledDropdown nav inNavbar>
@@ -52,7 +51,7 @@ function MainNavbar() {
                         Give
                     </DropdownToggle>
                     <DropdownMenu>
-                        <DropdownItem>Donate</DropdownItem>
+                        <DropdownItem tag={Link}>Donate</DropdownItem>
                     </DropdownMenu>
                 </UncontrolledDropdown>
             </Nav>

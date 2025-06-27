@@ -1,13 +1,20 @@
-import { useSelector, useDispatch } from "react-redux"
-import { Button, Form, FormGroup, Input, Label } from "reactstrap";
+// import { useSelector, useDispatch } from "react-redux"
+// import { Button, Form, FormGroup, Input, Label } from "reactstrap";
+//
+// import { saveMessage } from "./StaffSlice.js";
 
-import { saveMessage } from "./StaffSlice.js";
+// eslint-disable-next-line react/prop-types
+function StaffPic({pic}) {
+    return (
+        <img src={pic} style={{width: "15%", objectFit: "contain", padding: "10px", marginBottom: "auto"}} alt={""} />
+    )
+}
 
 // eslint-disable-next-line react/prop-types
 function StaffMemberLeft({name, bio, pic}) {
     return (
-        <div style={{display: "flex", flexDirection: "row", marginLeft: "10px"}}>
-            <img src={pic} style={{width: "25%", padding: "10px"}} alt={""}/>
+        <div style={{display: "flex", flexDirection: "row", margin: "10px", padding: "10px 20px"}}>
+            <StaffPic pic={pic} />
             <div style={{display: "flex", flexDirection: "column", padding: "10px"}}>
                 <div style={{margin: "inherit", textAlign: "left", fontWeight: "bold"}}>
                     {name}
@@ -20,9 +27,10 @@ function StaffMemberLeft({name, bio, pic}) {
     )
 }
 
+// eslint-disable-next-line react/prop-types
 function StaffMemberRight({name, bio, pic}) {
     return (
-        <div style={{display: "flex", flexDirection: "row", margin: "10px"}}>
+        <div style={{display: "flex", flexDirection: "row", margin: "10px", padding: "10px 20px"}}>
             <div style={{display: "flex", flexDirection: "column", padding: "10px"}}>
                 <div style={{margin: "inherit", textAlign: "left", fontWeight: "bold"}}>
                     {name}
@@ -31,18 +39,14 @@ function StaffMemberRight({name, bio, pic}) {
                     {bio}
                 </div>
             </div>
-            <img src={pic} style={{width: "25%", paddingTop: "15px", padding: "10px"}} alt={""}/>
+            <StaffPic pic={pic} />
         </div>
     )
-}
-
-function StaffMemberPicture() {
-
 }
 
 export default function Staff() {
-    const message = useSelector((state) => state.staff.message)
-    const dispatch = useDispatch()
+    // const message = useSelector((state) => state.staff.message)
+    // const dispatch = useDispatch()
 
     return (
         <div>
@@ -66,23 +70,6 @@ export default function Staff() {
                 bio={"I was born and raised in Ada, OK; I am a graduate of Byng Public School and am currently attending East Central University, majoring in history with a minor in education. I got my start in youth ministry after being called while working on a college campus."}
                 pic={"staffTyler.jpg"}
             />
-            <Form>
-                {message}
-                <FormGroup>
-                    <Label for={ "messageTarget" } hidden>
-                        Message
-                    </Label>
-                    <Input id={ "messageTarget" } name={ "message" } placeholder="Message" type={ "text" } onChange={ () => dispatch(saveMessage(event.target.value)) } />
-                </FormGroup>
-                <FormGroup>
-                    <Label for={ "sendTarget" } hidden>
-                        Send
-                    </Label>
-                    <Button id={ "sendTarget" } name={ "send" }>
-                        Send
-                    </Button>
-                </FormGroup>
-            </Form>
         </div>
     )
 }
