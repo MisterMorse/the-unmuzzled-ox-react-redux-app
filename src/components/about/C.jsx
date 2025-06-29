@@ -36,21 +36,21 @@ function Event({name, date, time, desc}) {
 }
 
 
-export default function Events() {
-    // const message = useSelector((state) => state.staff.message)
+export default function D() {
+    // const message = useSelector((state) => state.staff.message)3
     // const dispatch = useDispatch()
 
     return (
         <div>
             <div style={{display: "flex", flexDirection: "column", padding: "10px", width: "25%"}}>
                 <div style={{margin: "inherit", textAlign: "left", fontWeight: "bolder"}}>
-                    What We Believe
+                    Contact
                 </div>
             </div>
-            <div style={{display: "flex", flexDirection: "column", padding: "10px"}}>
-                <div style={{margin: "inherit", textAlign: "left"}}>
-                    We believe that Jesus is Lord and Savior, and the Bible is the divinely inspired Word that serves as the final written authority for the living out of the Christian faith.
-                </div>
+            <div style={{display: "flex", flexDirection: "column", padding: "10px", fontWeight: "bold" +
+                    ""}}>
+                <p>Email: loveladybaptchurch@gmail.com</p>
+                <p>Contact: Pastor Coy Howry (580) 399-6393</p>
             </div>
         </div>
     )

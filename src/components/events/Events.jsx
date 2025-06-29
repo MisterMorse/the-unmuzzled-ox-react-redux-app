@@ -46,19 +46,19 @@ export default function Events() {
                 name={"Men's 1"}
                 date={'May 25'}
                 time={'10:30 AM'}
-                desc={"I have been a member of Lovelady Baptist Church for over 40 years, serving as pastor for the past 10 years; I am a life-long Okie, and I graduated from Allen High School and East Central University. I was raised the son of a Southern Baptist pastor, and my father served as the pastor at our church from 1980 to 1997. I became a member of Lovelady in 1982, and – after having attended Lovelady for over 30 years – I surrendered to ministry in 2013. After serving as a pulpit supply and interim pastor in area churches for two years, I was called as pastor at Lovelady. My wife Patty and I were married at Lovelady in 1984, and we have three adult children and nine grandchildren. I love spending time with my family, as well as hunting, fishing, camping, cooking, watching sports, and gardening."}
+                desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
             />
             <Event
                 name={"Men's 2"}
                 date={'May 25'}
                 time={'10:30 AM'}
-                desc={"I have been a member of Lovelady Baptist Church for over 40 years, serving as pastor for the past 10 years; I am a life-long Okie, and I graduated from Allen High School and East Central University. I was raised the son of a Southern Baptist pastor, and my father served as the pastor at our church from 1980 to 1997. I became a member of Lovelady in 1982, and – after having attended Lovelady for over 30 years – I surrendered to ministry in 2013. After serving as a pulpit supply and interim pastor in area churches for two years, I was called as pastor at Lovelady. My wife Patty and I were married at Lovelady in 1984, and we have three adult children and nine grandchildren. I love spending time with my family, as well as hunting, fishing, camping, cooking, watching sports, and gardening."}
+                desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
             />
             <Event
                 name={"Men's 3"}
                 date={'May 25'}
                 time={'10:30 AM'}
-                desc={"I have been a member of Lovelady Baptist Church for over 40 years, serving as pastor for the past 10 years; I am a life-long Okie, and I graduated from Allen High School and East Central University. I was raised the son of a Southern Baptist pastor, and my father served as the pastor at our church from 1980 to 1997. I became a member of Lovelady in 1982, and – after having attended Lovelady for over 30 years – I surrendered to ministry in 2013. After serving as a pulpit supply and interim pastor in area churches for two years, I was called as pastor at Lovelady. My wife Patty and I were married at Lovelady in 1984, and we have three adult children and nine grandchildren. I love spending time with my family, as well as hunting, fishing, camping, cooking, watching sports, and gardening."}
+                desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
             />
         </div>
     )

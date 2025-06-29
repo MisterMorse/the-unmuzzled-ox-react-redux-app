@@ -36,7 +36,7 @@ function Event({name, date, time, desc}) {
 }
 
 
-export default function Events() {
+export default function D() {
     // const message = useSelector((state) => state.staff.message)
     // const dispatch = useDispatch()
 
@@ -44,12 +44,21 @@ export default function Events() {
         <div>
             <div style={{display: "flex", flexDirection: "column", padding: "10px", width: "25%"}}>
                 <div style={{margin: "inherit", textAlign: "left", fontWeight: "bolder"}}>
-                    What We Believe
+                    Service Times
                 </div>
             </div>
             <div style={{display: "flex", flexDirection: "column", padding: "10px"}}>
                 <div style={{margin: "inherit", textAlign: "left"}}>
-                    We believe that Jesus is Lord and Savior, and the Bible is the divinely inspired Word that serves as the final written authority for the living out of the Christian faith.
+
+                    <p style={{fontWeight: 'bold'}}>Sunday</p>
+                    <p>Sunday School: 10AM</p>
+                    <p>Sunday Morning: 11AM (Children's Church and nursery available)</p>
+
+                    <p style={{fontWeight: 'bold'}}>Wednesday Evening</p>
+                    <p>Youth Services: 6:30PM</p>
+                    <p style={{fontWeight: 'bold'}}>Where</p>
+                    <p>20981 County Road 1560</p>
+                    <p>Ada, OK 74820</p>
                 </div>
             </div>
         </div>

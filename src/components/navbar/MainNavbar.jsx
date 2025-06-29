@@ -11,10 +11,8 @@ function MainNavbar() {
                         About
                     </DropdownToggle>
                     <DropdownMenu>
-                        <DropdownItem>Our Vision</DropdownItem>
-                        <DropdownItem>What We Believe</DropdownItem>
-                        <DropdownItem>Planning Your Visit</DropdownItem>
-                        <DropdownItem>Service Times</DropdownItem>
+                        <DropdownItem tag={ Link} to={'/wwb'}>What We Believe</DropdownItem>
+                        <DropdownItem tag={Link} to={'/st'}>Service Times</DropdownItem>
                         <DropdownItem tag={ Link } to={ "/staff" }>Leadership</DropdownItem>
                     </DropdownMenu>
                 </UncontrolledDropdown>
@@ -23,9 +21,7 @@ function MainNavbar() {
                         Connect
                     </DropdownToggle>
                     <DropdownMenu>
-                        <DropdownItem>Prayer Requests</DropdownItem>
-                        <DropdownItem>Watch Online</DropdownItem>
-                        <DropdownItem>Contact Us</DropdownItem>
+                        <DropdownItem tag={Link} to={'/cc'}>Contact Us</DropdownItem>
                     </DropdownMenu>
                 </UncontrolledDropdown>
                 <UncontrolledDropdown nav inNavbar>
@@ -51,7 +47,7 @@ function MainNavbar() {
                         Give
                     </DropdownToggle>
                     <DropdownMenu>
-                        <DropdownItem tag={Link}>Donate</DropdownItem>
+                        <DropdownItem tag={Link} to={'/dd'} >Donate</DropdownItem>
                     </DropdownMenu>
                 </UncontrolledDropdown>
             </Nav>
